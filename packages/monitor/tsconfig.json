@@ -4,11 +4,9 @@
     "composite": true,
     "outDir": "./dist",
     "rootDir": "./src",
-    "tsBuildInfoFile": "./dist/tsconfig.tsbuildinfo",
-    "jsx": "react-jsx",
-    "jsxImportSource": "react"
+    "tsBuildInfoFile": "./dist/tsconfig.tsbuildinfo"
   },
   "include": ["src/**/*", "../../*.d.ts"],
-  "exclude": ["node_modules", "dist", "**/*.test.ts", "**/*.spec.ts", "**/*.stories.tsx"],
+  "exclude": ["node_modules", "dist", "**/*.test.ts", "**/*.spec.ts"],
   "references": [{ "path": "../core/tsconfig.json" }]
 }

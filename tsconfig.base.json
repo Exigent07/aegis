@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "allowImportingTsExtensions": false,
+    "resolveJsonModule": true,
+    "verbatimModuleSyntax": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "baseUrl": ".",
+    "paths": {
+      "@aegis/core/*": ["packages/core/src/*"],
+      "@aegis/core": ["packages/core/src/index"],
+      "@aegis/express/*": ["packages/express/src/*"],
+      "@aegis/express": ["packages/express/src/index"],
+      "@aegis/next/*": ["packages/next/src/*"],
+      "@aegis/next": ["packages/next/src/index"],
+      "@aegis/react/*": ["packages/react/src/*"],
+      "@aegis/react": ["packages/react/src/index"],
+      "@aegis/monitor/*": ["packages/monitor/src/*"],
+      "@aegis/monitor": ["packages/monitor/src/index"]
+    }
+  }
+}

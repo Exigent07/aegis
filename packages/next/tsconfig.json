@@ -5,10 +5,9 @@
     "outDir": "./dist",
     "rootDir": "./src",
     "tsBuildInfoFile": "./dist/tsconfig.tsbuildinfo",
-    "jsx": "react-jsx",
-    "jsxImportSource": "react"
+    "target": "ES2022"
   },
   "include": ["src/**/*", "../../*.d.ts"],
-  "exclude": ["node_modules", "dist", "**/*.test.ts", "**/*.spec.ts", "**/*.stories.tsx"],
+  "exclude": ["node_modules", "dist", "**/*.test.ts", "**/*.spec.ts"],
   "references": [{ "path": "../core/tsconfig.json" }]
 }
