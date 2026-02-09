@@ -7,7 +7,7 @@
     "tsBuildInfoFile": "./dist/tsconfig.tsbuildinfo",
     "target": "ES2022"
   },
-  "include": ["src/**/*", "../../*.d.ts"],
+  "include": ["src", "../../*.d.ts"],
   "exclude": ["node_modules", "dist", "**/*.test.ts", "**/*.spec.ts"],
   "references": [{ "path": "../core/tsconfig.json" }]
 }

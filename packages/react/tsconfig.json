@@ -8,7 +8,7 @@
     "jsx": "react-jsx",
     "jsxImportSource": "react"
   },
-  "include": ["src/**/*", "../../*.d.ts"],
+  "include": ["src", "../../*.d.ts"],
   "exclude": ["node_modules", "dist", "**/*.test.ts", "**/*.spec.ts", "**/*.stories.tsx"],
   "references": [{ "path": "../core/tsconfig.json" }]
 }
